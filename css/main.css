@@ -1,0 +1,43 @@
+/* Font modifications to all heading 1's */
+h1 {
+    color:white;
+    font-family: monospace;
+    font-size: 36px;
+}
+
+/* Font modifications to all heading 2's */
+h2 {
+    color:grey;
+    font-family: monospace;
+    font-size: 24px;
+    line-height: 6px;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+/* Changes all the links to orange color */
+a {
+    color:darkorange;
+    font-family: monospace;
+    font-size: 14px;
+    
+}
+
+/* Makes all text on every page centered and bg color */
+body {
+    text-align: center;
+    background: url("../images/test1.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* This is for the image border on the home page */
+#border {
+    border: 3px solid darkorange;
+}
+
+div {
+    word-spacing: 30px;
+}
+
+
