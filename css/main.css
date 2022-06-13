@@ -2,15 +2,15 @@
 h1 {
     color:white;
     font-family: monospace;
-    font-size: 36px;
+    font-size: 2.5rem;
 }
 
 /* Font modifications to all heading 2's */
 h2 {
     color:grey;
     font-family: monospace;
-    font-size: 24px;
-    line-height: 6px;
+    font-size: 1.5rem;
+    line-height: 0.5rem;
     font-style: italic;
     font-variant: small-caps;
 }
@@ -19,7 +19,7 @@ h2 {
 a {
     color:darkorange;
     font-family: monospace;
-    font-size: 14px;
+    font-size: 0.85rem;
     
 }
 
@@ -33,11 +33,11 @@ body {
 
 /* This is for the image border on the home page */
 #border {
-    border: 3px solid darkorange;
+    border: 0.2rem solid darkorange;
 }
 
 div {
-    word-spacing: 30px;
+    word-spacing: 2rem;
 }
 
 
