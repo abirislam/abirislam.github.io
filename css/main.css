@@ -10,35 +10,35 @@ h2 {
     color:grey;
     font-family: monospace;
     font-size: 1.5rem;
-    line-height: 0.5rem;
+    line-height: 2rem;
     font-style: italic;
     font-variant: small-caps;
+    
 }
 
 /* Changes all the links to orange color */
 a {
     color:darkorange;
     font-family: monospace;
-    font-size: 0.85rem;
-    
+    font-size: 0.85rem;    
 }
 
-/* Makes all text on every page centered and bg color */
+/* Makes all text on every page centered and changes bg to the gif*/
 body {
     text-align: center;
     background: url("../images/test1.gif");
     background-repeat: no-repeat;
-    width: 100vw;
+    background-position: center;
+    min-height: 100vh;
 }
 
-
-
-/* This is for the image border on the home page */
+/* This is for the image border on the gif on the home page */
 #border {
     border: 0.2rem solid darkorange;
     width: 33vw;
 }
 
+/* This is to make the bio text spacing more fitting for mobile users */
 div {
     word-spacing: 2rem;
 }
