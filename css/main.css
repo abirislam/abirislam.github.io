@@ -27,13 +27,16 @@ a {
 body {
     text-align: center;
     background: url("../images/test1.gif");
-    background-size: cover;
     background-repeat: no-repeat;
+    width: 100vw;
 }
+
+
 
 /* This is for the image border on the home page */
 #border {
     border: 0.2rem solid darkorange;
+    width: 33vw;
 }
 
 div {
