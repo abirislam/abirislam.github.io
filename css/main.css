@@ -1,13 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Font modifications to all heading 1's */
 h1 {
-    color:white;
+    color:#F1FFFF;
     font-family: monospace;
     font-size: 2.5rem;
 }
 
+#abir-heading {
+    margin-top: 2rem;
+}
 /* Font modifications to all heading 2's */
 h2 {
-    color:grey;
+    color: #F1FFFF;
     font-family: monospace;
     font-size: 1.5rem;
     line-height: 2rem;
@@ -18,24 +27,39 @@ h2 {
 
 /* Changes all the links to orange color */
 a {
-    color:darkorange;
+    color:white;
     font-family: monospace;
     font-size: 0.85rem;    
+}
+
+a:hover {
+    color: cyan;
+}
+
+.navbar {
+    margin-top: 1rem;
 }
 
 /* Makes all text on every page centered and changes bg to the gif*/
 body {
     text-align: center;
-    background: url("../images/test1.gif");
+    background: url("../images/bg-try-2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
 }
 
+.desc {
+    margin-bottom: 2rem;
+}
 /* This is for the image border on the gif on the home page */
 #border {
-    border: 0.2rem solid darkorange;
-    width: 33vw;
+    border: 0.3rem solid white;
+    width: 44vw;
+    background-attachment: fixed;
+    border-radius: 100rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* This is to make the bio text spacing more fitting for mobile users */
