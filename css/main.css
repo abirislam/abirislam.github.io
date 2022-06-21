@@ -43,6 +43,7 @@ body {
     background: url("../images/bg-try-2.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     min-height: 100vh;
 }
 
@@ -52,7 +53,7 @@ body {
 /* This is for the image border on the gif on the home page */
 #border {
     border: 0.3rem solid white;
-    width: 44vw;
+    height: 40vh;
     background-attachment: fixed;
     border-radius: 100rem;
     margin-top: 2rem;
